@@ -14,6 +14,10 @@
 
 ## Matlab
 
+(1) Open a device handle:\
+device = bladeRF('*:serial=SERIAL_NUAND_BLADE') \
+
+
 
 ## Bladerf cli -i
 
