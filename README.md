@@ -10,10 +10,10 @@
 - [wiki bladeRf](https://github.com/Nuand/bladeRF/wiki)
 
 ## gnuradio osmorcorp
-
+![image](BladeRFv2Ax4/gnuradio_modulo.JPG)
 
 ## Matlab
-![image](BladeRFv2Ax4/gnuradio_modulo.JPG)
+
 
 ## Bladerf cli -i
 
