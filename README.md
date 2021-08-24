@@ -9,7 +9,7 @@
 - [An SDR-Based FRS Transceiver view](https://www.nuand.com/bladeRF-doc/examples/bladeRF_frs.html)
 - [wiki bladeRf](https://github.com/Nuand/bladeRF/wiki)
 
-## gnuradio osmorcorp
+## gnuradio osmocom
 ![image](BladeRFv2Ax4/gnuradio_modulo.JPG)
 
 ## Matlab
