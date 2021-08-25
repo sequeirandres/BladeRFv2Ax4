@@ -1,7 +1,6 @@
 
-% example to tx bladeRF 
-% direccion fisica del devide 
-% usb serial blade : e20a37e47ade4fce943d324ae507236a
+%% rx example blade rf
+%% author : sequer@ndres
 
 %% ... clear plot ...
 clear; close all; clc;
@@ -25,7 +24,7 @@ signal = AMPLITUD* sin(omega * time) ;
 %plot(time(1:1000), real( signal(1:1000))) ;
 %grid() ;
 % Select device
-Device=bladeRF('*:serial=e20a37e47ade4fce943d324ae507236a') ;
+Device=bladeRF('*:serial=SERIAL_BLADE_DEVICE') ;
 
 % parameters frequency
 Device.tx.frequency = FREQ_CENTER ;
@@ -68,7 +67,7 @@ Device.tx.stop() ;
 disp('Tx stop ') ;
 
 % ---- IMPRIMO EL CONSUMO Y LA TEMPERATURA -----
-fprintf('Temperatura [°C] : %f\n',Device.misc.temperature );
+fprintf('Temperatura [Â°C] : %f\n',Device.misc.temperature );
 fprintf('Consumo [W] : %d\n',Device.misc.dc_power );
 
 
