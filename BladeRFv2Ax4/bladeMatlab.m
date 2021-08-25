@@ -30,5 +30,12 @@
 
   device.rx.stop();
   clear b;    // solo en matlab
+    
+% temperatura y consumo del device
+fprintf('Temperatura [°C] : %f\n',Device.misc.temperature );
+fprintf('Consumo [W] : %d\n',Device.misc.dc_power );
+
+  
+  
 
 
