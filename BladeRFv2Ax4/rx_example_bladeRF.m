@@ -1,16 +1,14 @@
-%%  clear plot
+%% rx example blade rf
+%% author : sequer@ndres
+
 clear; close all; clc;
-
-
 %% 
-
-
 FREQ_CENTER = 98.3e6 ;
 BW = 1e6 ; % 1MHz
 SAMPLE_RATE = 5e6 ; %
 
 % Select device
-Device=bladeRF('*:serial=e20a37e47ade4fce943d324ae507236a') ;
+Device=bladeRF('*:serial=SERIAL_BLADE_DEVICE') ;
 
 % -- configuracion en frecuencias ---
 Device.rx.frequency = FREQ_CENTER ;
@@ -62,7 +60,7 @@ disp('len of sample :')
 disp(length(samples)) ;
 
 % ---- IMPRIMO EL CONSUMO Y LA TEMPERATURA -----
-fprintf('Temperatura [°C] : %f\n',Device.misc.temperature );
+fprintf('Temperatura [Â°C] : %f\n',Device.misc.temperature );
 fprintf('Consumo [W] : %d\n',Device.misc.dc_power );
 
 
