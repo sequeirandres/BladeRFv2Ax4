@@ -1,0 +1,15 @@
+# author : sequeir@ndres
+
+# -- install last edition --
+
+sudo apt-get install gnuradio
+
+# -- add osmosdr block --
+
+sudo apt-get install libportaudio2
+sudo apt-get install git-core
+sudo apt-get install gnuradio gr-osmosdr
+
+# -- run gnuradio --
+
+$ gnuradio-companio
