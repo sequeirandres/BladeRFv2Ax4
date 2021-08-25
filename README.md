@@ -12,7 +12,7 @@
 ## gnuradio osmocom
 
 [Install gnuradio](https://www.gnuradio.org/news/2021-06-10-gnu-radio-v3.9.2.0-release)
-
+[Add osmocom Unix](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/gnuradio_ubuntu_install)
 ![image](BladeRFv2Ax4/gnuradio_modulo.JPG)
 
 
