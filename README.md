@@ -10,7 +10,13 @@
 - [wiki bladeRf](https://github.com/Nuand/bladeRF/wiki)
 
 ## gnuradio osmocom
+
+[Install gnuradio](https://www.gnuradio.org/news/2021-06-10-gnu-radio-v3.9.2.0-release)
+
 ![image](BladeRFv2Ax4/gnuradio_modulo.JPG)
+
+
+
 
 ## Matlab
 
