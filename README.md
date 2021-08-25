@@ -15,8 +15,8 @@
 ## Matlab
 
 - [Configuration](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/bladeMatlab.m)
-- [Tx example](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/tx_example_baldeRF.m)
-- [Rx example](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/rx_example_bladeRF.m)
+- [Tx example](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/bladeMatlab.m)
+- [Rx example](https://github.com/sequeirandres/BladeRFv2Ax4/blob/main/BladeRFv2Ax4/bladeMatlab.m)
 
 
 ## Bladerf cli -i
