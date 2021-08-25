@@ -4,7 +4,7 @@
 
  (2) paramtros para recibir 
 
-   device.rx.frequency  = 917.45e6;
+   device.rx.frequency  = 433e6;
    device.rx.samplerate = 5e6;         // 2Msamples a 20 Msamples Maximo
    device.rx.bandwidth  = 2.5e6;
    device.rx.lna        = 'MAX';
