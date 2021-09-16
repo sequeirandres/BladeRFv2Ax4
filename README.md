@@ -1,4 +1,7 @@
 ## NUAND BladeRF 
+
+- freq sample max= 60 MHz
+- Bw chirp max = fs/2 
 ![image](BladeRFv2Ax4/bladerfv2ax4_1.jpg)
 
 ## Documentacion util:
